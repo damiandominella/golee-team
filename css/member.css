@@ -48,7 +48,7 @@
   transition: 0.5s ease;
   background-color: white !important;
   border-radius: 20px;
-  border: 2px solid #f9423a;
+  border: 2px solid #ffffff;
 }
 
 .photo-wrap {
@@ -60,7 +60,7 @@
   background-size: cover;
   border-radius: 20px;
   position: relative;
-  border: 2px solid #f9423a;
+  border: 2px solid #ffffff;
 }
 .sentence {
   padding: 15px;

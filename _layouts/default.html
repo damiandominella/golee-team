@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="work.js" defer></script>
+    <link rel="shortcut icon" href="favicon.png" type="x/x-icon" />
     <link href="css/header-footer.css" rel="stylesheet" type="text/css" />
     <link href="css/member.css" rel="stylesheet" type="text/css" />
     <link href="css/intro.css" rel="stylesheet" type="text/css" />
@@ -18,9 +19,7 @@
     <title>Golee | Team</title>
   </head>
   <body>
-    <header>{% include nav.html %}</header>
-
-    {% include intro.html %}
+    {% include nav.html %} {% include intro.html %}
     <section class="team-section">
       <div class="container-team">{% include member.html %}</div>
     </section>
