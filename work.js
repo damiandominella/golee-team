@@ -9,22 +9,19 @@ for (var i = 0; i < elements.length; i++) {
     elements[i].addEventListener(
       "click",
       function (event) {
-        myFunction(i);
+        toggleVisibility(elements[i]);
       },
       false
     );
   })(i);
 }
 
-function myFunction(i) {
-  var el = document.getElementsByClassName("description")[i];
+function toggleVisibility(el) {
   var currentStyle = window.getComputedStyle(el, null).display;
 
-  console.log(el);
-  console.log(currentStyle);
   if (currentStyle === none) {
-    document.getElementsByClassName("description")[i].style.display = block;
+    el.style.display = block;
   } else {
-    document.getElementsByClassName("description")[i].style.display = none;
+    el.style.display = none;
   }
 }
