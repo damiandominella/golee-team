@@ -1,0 +1,19 @@
+{% for member in site.data.team.members %}
+<div class="member">
+  <!-- <div class="photo-wrap" style="background-image: url('{{members.image}}')"> -->
+  <img
+    src="{{member.image}}"
+    class="photo-wrap"
+    alt="{{member.name}}"
+    style="width: 200px; height: 200px"
+  />
+  <div class="overlay">
+    <p class="sentence">{{ member.sentence }}</p>
+    <p class="email">
+      <a class="email" href="mailto:{{member.email}}">{{ member.email }}</a>
+    </p>
+  </div>
+  <p class="name">{{member.name}} {{member.surname}}</p>
+  <p class="role">{{member.role}}</p>
+</div>
+{% endfor %}

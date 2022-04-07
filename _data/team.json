@@ -1,0 +1,165 @@
+{
+  "members": [
+    {
+      "name": "Tommaso",
+      "surname": "Guerra",
+      "email": "tommaso@golee.it",
+      "sentence": "\"Chi non ha mai commesso un errore non ha mai provato nulla di nuovo\"",
+      "image": "./images/Tom.jpg",
+      "role": "CEO"
+    },
+    {
+      "name": "Luca",
+      "surname": "Giovenzana",
+      "email": "luca.giovenzana@golee.it",
+      "sentence": "",
+      "image": "./images/Luca5.jpeg",
+      "role": "CTO"
+    },
+    {
+      "name": "Marco",
+      "surname": "Morri",
+      "email": "marchino@golee.it",
+      "sentence": "\"In teoria, la teoria e la pratica coincidono. In pratica, non è così.\"",
+      "image": "./images/Marc.jpg",
+      "role": "Product Owner"
+    },
+    {
+      "name": "Damian",
+      "surname": "Dominella",
+      "email": "dodo@golee.it",
+      "sentence": "\"Ah dì, io sono questo qui\"",
+      "image": "./images/Dodo.jpg",
+      "role": "Software Engineer"
+    },
+    {
+      "name": "Filippo",
+      "surname": "Ronconi",
+      "email": "filippo@golee.it",
+      "sentence": "\"Se non trovi la tua strada, creane una!\"",
+      "image": "./images/Filo.jpg",
+      "role": "Tester"
+    },
+    {
+      "name": "Luigi",
+      "surname": "Votano",
+      "email": "gigi@golee.it",
+      "sentence": "\"Innovazione è vedere quello che tutti hanno visto e pensare quello che nessuno ha pensato.\"",
+      "image": "./images/Gigi.jpg",
+      "role": "Ruolo"
+    },
+    {
+      "name": "Ilaria",
+      "surname": "Checci",
+      "email": "ilaria@golee.it",
+      "sentence": "",
+      "image": "./images/Ila.jpg",
+      "role": "Ruolo"
+    },
+    {
+      "name": "Marco",
+      "surname": "Ballarini",
+      "email": "marco@golee.it",
+      "sentence": "\"Un uomo ha successo se si alza la mattina e si mette a letto la sera, e in mezzo fa ciò che vuole fare.\"",
+      "image": "./images/Balla.jpg",
+      "role": "Ruolo"
+    },
+    {
+      "name": "Felice",
+      "surname": "Biancardi",
+      "email": "felice@golee.it",
+      "sentence": "\"Un uomo ha successo se si alza la mattina e si mette a letto la sera, e in mezzo fa ciò che vuole fare.\"",
+      "image": "./images/Feli.jpg",
+      "role": "Ruolo"
+    },
+    {
+      "name": "Luca",
+      "surname": "Granaldi",
+      "email": "luca.granaldi@golee.it",
+      "sentence": "\"Strade? Dove stiamo andando non c’è bisogno di strade!\"",
+      "image": "./images/Grana.jpg",
+      "role": "Ruolo"
+    },
+    {
+      "name": "Luca",
+      "surname": "Romeo",
+      "email": "luca.romeo@golee.it",
+      "sentence": "\"Se non rischi nulla, rischi tutto.\"",
+      "image": "./images/Luca.jpg",
+      "role": "Ruolo"
+    },
+    {
+      "name": "Lorenzo",
+      "surname": "Barbi",
+      "email": "lorenzo@golee.it",
+      "sentence": "\"Nelle corse ai cavalli basta mettere il musetto davanti. Fotografia. Corto muso. Semplice.\"",
+      "image": "./images/Lore10.jpeg",
+      "role": "Ruolo"
+    },
+    {
+      "name": "Gabriele",
+      "surname": "Toselli",
+      "email": "gabriele.toselli@golee.it",
+      "sentence": "\"Perciò molla gli ormeggi, esci dal porto sicuro e lascia che il vento gonfi le tue vele. Esplora. Sogna. Scopri.\"",
+      "image": "./images/Gab.jpg",
+      "role": "Software Engineer"
+    },
+    {
+      "name": "Roberto",
+      "surname": "Colombo",
+      "email": "roberto.colombo@golee.it",
+      "sentence": "\"Perchè la forza del lupo è il branco e la forza del branco è il lupo.\"",
+      "image": "./images/Rob.jpg",
+      "role": "Software Engineer"
+    },
+    {
+      "name": "Nikita",
+      "surname": "Montuschi",
+      "email": "nikita@golee.it",
+      "sentence": "",
+      "image": "./images/Niki.jpg",
+      "role": "Ruolo"
+    },
+    {
+      "name": "Antonino",
+      "surname": "Ceraolo",
+      "email": "a.ceraolo@golee.it",
+      "sentence": "",
+      "image": "./images/Nino.jpg",
+      "role": "Ruolo"
+    },
+    {
+      "name": "Giovanni",
+      "surname": "Leone",
+      "email": "giovanni@golee.it",
+      "sentence": "",
+      "image": "./images/Gio.jpeg",
+      "role": "Software Engineer"
+    },
+    {
+      "name": "Emanuele",
+      "surname": "Gragnani",
+      "email": "emanuele@golee.it",
+      "sentence": "",
+      "image": "./images/Ema.jpg",
+      "role": "Ruolo"
+    }
+  ],
+  "contracts": [
+    {
+      "role": "Software Engineer",
+      "time": "Tempo indeterminato",
+      "salary": "Commisurato all’esperienza -- RAL: 35K - 43K"
+    },
+    {
+      "role": "Marketing",
+      "time": "Tempo indeterminato",
+      "salary": "Commisurato all’esperienza -- RAL: 35K - 43K"
+    },
+    {
+      "role": "Terza prova",
+      "time": "Tempo indeterminato",
+      "salary": "Commisurato all’esperienza -- RAL: 35K - 43K"
+    }
+  ]
+}

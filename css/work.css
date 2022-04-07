@@ -1,0 +1,48 @@
+.work-card {
+  margin-top: 10px;
+  margin-bottom: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+  background-color: #f2eded;
+  border-radius: 20px;
+  cursor: pointer;
+  min-height: 100px;
+  overflow: hidden;
+  border: 2px solid #f9423a;
+}
+.work {
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px;
+}
+.work-type {
+  padding: 0px 20px 0px 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+ul {
+  padding: 0px 20px 0px 34px;
+}
+.work-time {
+  margin-top: 15px;
+}
+.time {
+  margin-top: 5px;
+  display: inline-block;
+  font-style: italic;
+}
+.desc {
+  padding: 0px 20px 0px 20px;
+}
+.description {
+  margin-top: 5px;
+  display: none;
+}
+.email {
+  color: #f9423a;
+  font-weight: bold;
+}
+.work-card:hover {
+  border: 3px solid #f9423a;
+}

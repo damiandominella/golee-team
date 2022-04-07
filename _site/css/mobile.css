@@ -1,0 +1,49 @@
+@media screen and (max-width: 1200px) {
+  .container-team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .team-section {
+    background-color: #f2eded;
+    display: flex;
+    justify-content: center;
+  }
+  .work-card {
+    width: 730px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container-team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .team-section {
+    background-color: #f2eded;
+    display: flex;
+    justify-content: center;
+  }
+  .work-card {
+    width: 480px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container-team {
+    display: block;
+  }
+  .team-section {
+    background-color: #f2eded;
+    display: flex;
+    justify-content: center;
+  }
+  .work-card {
+    margin: auto;
+    width: 230px;
+    margin-bottom: 50px;
+  }
+}

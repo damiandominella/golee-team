@@ -1,0 +1,118 @@
+<h2 style="text-align: center">Lavora con noi</h2>
+{% for contract in site.data.team.contracts %}
+<div class="work">
+  <div class="work-card">
+    <p class="work-type">{{ contract.role }}</p>
+    <div class="work-time">
+      <i class="material-icons" style="margin-left: 20px">query_builder</i>
+      <p class="time">{{ contract.time }}</p>
+    </div>
+
+    <div class="description">
+      <p class="work-type">Tipo di contratto:<br /></p>
+      <p class="desc">{{ contract.time }}</p>
+      <br />
+      <p class="work-type">Stipendio:</p>
+      <p class="desc">
+        {{ contract.salary }} <br /><br />
+        <i
+          >Se cerchi un lavoro dove ti venga detto cosa fare, Golee non fa per
+          te.
+          <br />
+          Se cerchi un progetto dove poter sperimentare con coscienza e
+          razionalità, Golee fa per te.</i
+        >
+        <br />
+        <br />
+        Il candidato ideale è una persona curiosa e intraprendente che condivide
+        con noi la passione per la tecnologia e il valore del team working.
+        <br />
+        Cerchiamo una figura che si possa integrare velocemente nel nostro
+        development team e che ci accompagni nel nostro percorso verso
+        l’innovazione e la digitalizzazione dell’ecosistema sportivo.
+        <br />
+        Il Team IT di Golee segue il framework agile “Scrum” come metodologia di
+        sviluppo. <br />
+        Ad oggi il team conta 6 membri, essendo formato da 5 developers e 1
+        Product Owner (+ 1 advisor esterno).
+      </p>
+      <br />
+      <p class="work-type">Chi è Golee?</p>
+      <p class="desc">
+        Golee è la piattaforma di digitalizzazione del mondo sportivo
+        dilettantistico che offre servizi tecnologici a tutti gli addetti ai
+        lavori del settore: società sportive, allenatori, atleti, tifosi,
+        procuratori, enti istituzionali. Nata nel 2018 e con sede a Milano,
+        Golee conta oggi più di 1500 società sportive clienti da tutta Italia e
+        si pone come obiettivo diventare il leader di settore in Italia entro la
+        fine dell'anno. <br />Lavorare in Golee non significa solamente scrivere
+        codice, ma anche interagire attivamente con il team e con tutte le
+        figure coinvolte nella realizzazione della funzionalità. <br />
+        Come membro di uno Scrum Team, sarai responsabile dello sviluppo di
+        tutti i tasks dalla progettazione fino alla fase di test. Lavorerai in
+        un ambiente giovane, informale, innovativo, dinamico ed aperto alle
+        nuove tecnologie, dove avrai la possibilità di contribuire alla continua
+        evoluzione del prodotto utilizzando tecnologie moderne e
+        all'avanguardia.
+      </p>
+      <br />
+      <p class="work-type">I tuoi compiti saranno:</p>
+      <ul>
+        <li>
+          Sviluppo della piattaforma con un approccio iterativo-incrementale
+        </li>
+        <li>
+          Completamento dei task dalla fase di progettazione alla fase di test e
+          rilascio
+        </li>
+        <li>
+          Decidere insieme al team quali strategie adottare per raggiungere la
+          massima efficienza
+        </li>
+        <li>
+          Collaborazione costante per un continuo scambio di competenze tra i
+          membri del team
+        </li>
+      </ul>
+      <br />
+      <p class="work-type">Requisiti:</p>
+      <ul>
+        <li>Esperienza pregressa nel ruolo di sviluppatore</li>
+        <li>Motivazione, apertura al cambiamento e ambizione</li>
+        <li>Team working</li>
+        <li>Capacità di comunicare con personale tecnico e non</li>
+      </ul>
+      <br />
+      <p class="work-type">Hard skills:</p>
+      <ul>
+        <li>Conoscenza dei fondamentali di un’infrastruttura a microservizi</li>
+        <li>
+          Conoscenza ed esperienza nella realizzazione di progetti in Javascript
+        </li>
+        <li>Esperienza pregressa con React o Angular</li>
+      </ul>
+      <br />
+      <p class="desc">
+        Alcune delle tecnologie che troverai in Golee:
+        <i
+          >React, React Native, TypeScript, NodeJs, MongoDb, Redis, CI/CD, Test
+          automation, Google Cloud, Docker, …</i
+        >
+      </p>
+      <p class="desc">
+        Il talento fa vincere le partite, ma l’intelligenza e il lavoro di
+        squadra fanno vincere i campionati (Michael Jordan).
+      </p>
+      <br />
+      <p class="desc">
+        Vuoi conoscerci ? Scrivi a
+        <a
+          href="mailto:careers@golee.it"
+          style="color: #f9423a; font-weight: bold"
+          >careers@golee.it</a
+        >
+      </p>
+    </div>
+  </div>
+</div>
+{% endfor %}

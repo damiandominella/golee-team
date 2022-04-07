@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="work.js" defer></script>
+    <link
+      href="{{site.baseurl}}/css/header-footer.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="{{site.baseurl}}/css/member.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="{{site.baseurl}}/css/intro.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="{{site.baseurl}}/css/default.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="{{site.baseurl}}/css/work.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="{{site.baseurl}}/css/mobile.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <title>Golee | Team</title>
+  </head>
+  <body>
+    <header>{% include nav.html %}</header>
+
+    {% include intro.html %}
+    <section class="team-section">
+      <div class="container-team">{% include member.html %}</div>
+    </section>
+    <section>{% include work.html %}</section>
+    {{content}}
+    <footer id="footer" style="background-color: #262626">
+      {% include footer.html %}
+    </footer>
+  </body>
+</html>
